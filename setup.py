@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='qc_cmq_python_sdk',
@@ -9,5 +8,5 @@ setup(
     author='Flowsnow',
     author_email='snowlight437@gmail.com',
     keywords='cmq tencent python',
-    packages=['cmq'],
+    packages = find_packages(),
 )

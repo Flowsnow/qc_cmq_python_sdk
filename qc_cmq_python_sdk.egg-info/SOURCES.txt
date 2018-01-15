@@ -1,4 +1,3 @@
-README.md
 setup.py
 cmq/__init__.py
 cmq/account.py
